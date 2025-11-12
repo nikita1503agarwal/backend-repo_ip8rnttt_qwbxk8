@@ -1,0 +1,45 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [162] using StatReload
+INFO:     Started server process [164]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:40838 - "GET /metrics?level=org&limit=1 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40850 - "GET /metrics?level=team&limit=50 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40838 - "GET /metrics?level=org&limit=1 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40850 - "GET /metrics?level=team&limit=50 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40870 - "GET /benchmarks HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40864 - "GET /frictions HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40886 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:40870 - "GET /frictions HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40864 - "GET /benchmarks HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40870 - "GET /frictions HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40870 - "GET /frictions HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50028 - "GET /metrics?level=org&limit=1 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50038 - "GET /metrics?level=team&limit=50 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50048 - "GET /benchmarks HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50062 - "GET /frictions HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50028 - "GET /metrics?level=org&limit=1 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50038 - "GET /benchmarks HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50048 - "GET /metrics?level=team&limit=50 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50062 - "GET /frictions HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50062 - "GET /frictions HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50062 - "GET /frictions HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45014 - "OPTIONS / HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45022 - "OPTIONS / HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45022 - "GET / HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45014 - "GET / HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45022 - "OPTIONS /test HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45014 - "OPTIONS /test HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45030 - "GET /test HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45030 - "GET /test HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53076 - "GET /metrics?level=org&limit=1 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53090 - "GET /metrics?level=team&limit=50 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53088 - "GET /benchmarks HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53092 - "GET /frictions HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53076 - "GET /metrics?level=org&limit=1 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53092 - "GET /frictions HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53090 - "GET /benchmarks HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53088 - "GET /metrics?level=team&limit=50 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53092 - "GET /frictions HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53092 - "GET /frictions HTTP/1.1" 200 OK
